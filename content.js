@@ -5,7 +5,7 @@ function saveText(text) {
 // content.js
 
 function createButton() {
-    const contents = document.querySelectorAll('.your-selector'); // Change '.your-selector' to your desired selector
+    const contents = document.querySelectorAll('.selector'); // Change '.selector' to your desired selector
 
     contents.forEach(content => {
         const button = document.createElement('button');

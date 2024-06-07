@@ -1,4 +1,4 @@
-console.log('Text saved');
+// console.log('Text saved');
 function saveText(text) {
     chrome.storage.local.set({ 'savedText': text }, function() {
         console.log('Text saved:', text);
@@ -16,7 +16,7 @@ function displaySavedText() {
     });
 }
 function createButtons() {
-    const contents = document.querySelectorAll('.your-selector'); // Change '.your-selector' to your desired selector
+    const contents = document.querySelectorAll('.selector'); // Change '.selector' to your desired selector
 
     contents.forEach(content => {
         const button = document.createElement('button');
